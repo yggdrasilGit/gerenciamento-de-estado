@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'carrinho.dart';
 
 class TelaCarrinho extends StatelessWidget {
+  const TelaCarrinho({super.key});
+
   @override
   Widget build(BuildContext context) {
     final carrinho = Provider.of<Carrinho>(context);

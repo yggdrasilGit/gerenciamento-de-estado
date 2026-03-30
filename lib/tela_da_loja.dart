@@ -6,6 +6,8 @@ import 'tela_carrinho.dart';
 class TelaLoja extends StatelessWidget {
   final produtos = ['Camisa', 'Calça', 'Tênis', 'Boné', 'Mochila'];
 
+   TelaLoja({super.key});
+
   @override
   Widget build(BuildContext context) {
     final carrinho = Provider.of<Carrinho>(context);
